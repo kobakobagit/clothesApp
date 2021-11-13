@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Size</title>
+</head>
+<body>
+<tr th:each="size: ${sizeList}">
+    <td th:text="${size.sizeId}"></td>
+    <td th:text="${size.sizeName}"></td>
+</body>
+</html>
